@@ -105,6 +105,7 @@ public class PuntosDyV{
         double[] rI = distanciaMinima(lista, iz, m);
         double[] rD = distanciaMinima(lista, m + 2, de);
         double[] min;
+        
         if(rI[0]<rD[0]){
             min = rI;
         } else{
